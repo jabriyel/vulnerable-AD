@@ -1,0 +1,127 @@
+ [+] Users Created
+        [*] Creating Office Admin Group
+        [*] Adding gretchen.aryn to Office Admin
+        [*] Adding kathye.edita to Office Admin
+        [*] Adding hannie.alfi to Office Admin
+        [*] Adding amabelle.koren to Office Admin
+        [*] Adding rosie.rosamund to Office Admin
+        [*] Creating IT Admins Group
+        [*] Adding elwira.frederica to IT Admins
+        [*] Adding allianora.nicolette to IT Admins
+        [*] Adding melanie.dorree to IT Admins
+        [*] Adding irene.genna to IT Admins
+        [*] Adding law.kenny to IT Admins
+        [*] Creating Executives Group
+        [*] Adding krystal.editha to Executives
+        [*] Adding marge.lockwood to Executives
+        [*] Adding kinsley.dynah to Executives
+        [*] Adding heda.ainsley to Executives
+        [*] Adding janeta.gabriel to Executives
+        [*] Adding janeta.gabriel to Executives
+        [+] Office Admin IT Admins Executives Groups Created
+        [*] Creating Senior management Group
+        [*] Adding caritta.kiele to Senior management
+        [*] Adding amabelle.koren to Senior management
+        [*] Adding electra.nata to Senior management
+        [*] Adding anabel.jobey to Senior management
+        [*] Adding irene.genna to Senior management
+        [*] Creating Project management Group
+        [*] Adding jerrine.harriette to Project management
+        [*] Adding anneliese.marketa to Project management
+        [*] Adding rozanna.ranice to Project management
+        [*] Adding farah.kikelia to Project management
+        [*] Adding debra.karlee to Project management
+        [+] Senior management Project management Groups Created
+        [*] Creating marketing Group
+        [*] Adding darcy.alexine to marketing
+        [*] Adding lavinie.lindsey to marketing
+        [*] Adding florida.elonore to marketing
+        [*] Adding melicent.ashlen to marketing
+        [*] Adding joya.robinette to marketing
+        [*] Adding anitra.lorrie to marketing
+        [*] Adding krystle.giacinta to marketing
+        [*] Creating sales Group
+        [*] Adding elyse.anissa to sales
+        [*] Adding bobinette.demeter to sales
+        [*] Creating accounting Group
+        [*] Adding coletta.rosita to accounting
+        [*] Adding danyette.drusie to accounting
+        [*] Adding alissa.kara-lynn to accounting
+        [*] Adding adah.leonardo to accounting
+        [+] marketing sales accounting Groups Created
+        [*] BadACL GenericAll sales to Project management
+        [*] BadACL GenericWrite sales to Senior management
+        [*] BadACL WriteOwner sales to Project management
+        [*] BadACL WriteDACL marketing to Project management
+        [*] BadACL Self sales to Senior management
+        [*] BadACL GenericAll Project management to Executives
+        [*] BadACL GenericWrite Senior management to IT Admins
+        [*] BadACL WriteOwner Senior management to Office Admin
+        [*] BadACL WriteDACL Project management to Office Admin
+        [*] BadACL Self Senior management to Executives
+        [*] BadACL Self keelia.lacee and accounting
+        [*] BadACL GenericWrite ainslie.aimil and Project management
+        [*] BadACL GenericAll annette.carolann and marketing
+        [*] BadACL WriteDACL andree.jan and Executives
+        [*] BadACL Self erin.florette and Project management
+        [*] BadACL WriteDACL rosalie.donia and accounting
+        [*] BadACL Self elyn.isa and Office Admin
+        [*] BadACL GenericAll mead.johna and accounting
+        [*] BadACL GenericWrite lavinie.lindsey and Executives
+        [+] BadACL Done
+        [*] Kerberoasting exchange_svc exserver
+
+
+DistinguishedName : CN=exchange_svc,CN=Managed Service Accounts,DC=testing,DC=dev,DC=corp,DC=local
+Enabled           : True
+Name              : exchange_svc
+ObjectClass       : msDS-ManagedServiceAccount
+ObjectGUID        : 2840617f-898a-408d-9330-015b9530c403
+SamAccountName    : exchange_svc$
+SID               : S-1-5-21-2244954328-2189829416-1702281483-1212
+UserPrincipalName :
+
+        [*] Creating mssql_svc services account
+DistinguishedName : CN=mssql_svc,CN=Managed Service Accounts,DC=testing,DC=dev,DC=corp,DC=local
+Enabled           : True
+Name              : mssql_svc
+ObjectClass       : msDS-ManagedServiceAccount
+ObjectGUID        : f43576fa-debd-487b-a3b9-3882edd94f35
+SamAccountName    : mssql_svc$
+SID               : S-1-5-21-2244954328-2189829416-1702281483-1213
+UserPrincipalName :
+
+        [*] Creating http_svc services account
+DistinguishedName : CN=http_svc,CN=Managed Service Accounts,DC=testing,DC=dev,DC=corp,DC=local
+Enabled           : True
+Name              : http_svc
+ObjectClass       : msDS-ManagedServiceAccount
+ObjectGUID        : 6680f780-5ff0-484d-a873-1045c12172af
+SamAccountName    : http_svc$
+SID               : S-1-5-21-2244954328-2189829416-1702281483-1214
+UserPrincipalName :
+
+        [+] Kerberoasting Done
+        [*] AS-REPRoasting maighdiln.nikoletta
+        [*] AS-REPRoasting melodee.florri
+        [+] AS-REPRoasting Done
+        [*] DnsAdmins : melicent.ashlen
+        [*] DnsAdmins : keelia.lacee
+        [*] DnsAdmins : elyse.anissa
+        [*] DnsAdmins : darcee.alexi
+        [*] DnsAdmins Nested Group : Project management
+        [+] DnsAdmins Done
+        [*] Password in Description : law.kenny
+        [*] Password in Description : melicent.ashlen
+        [*] Password in Description : michell.camellia
+        [*] Password in Description : darcy.alexine
+        [+] Leaked Password Done
+        [*] Same Password (Password Spraying) : florida.elonore
+        [*] Same Password (Password Spraying) : dian.paolina
+        [+] Password Spraying Done
+        [*] Giving DCSync to : keelia.lacee
+        [*] Giving DCSync to : leeann.loralyn
+        [*] Giving DCSync to : keelia.lacee
+        [*] Giving DCSync to : angelia.liuka
+        [+] DCSync Done
+        [+] SMB Signing Disabled
